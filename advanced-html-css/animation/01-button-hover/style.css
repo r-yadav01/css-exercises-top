@@ -27,10 +27,10 @@ button {
 
 @keyframes breathe {
   0% {
+    scale: 1 1;
+  }
+  100% {
     scale: 2 2;
   }
 
-  100% {
-    scale: 1 1;
-  }
 }
