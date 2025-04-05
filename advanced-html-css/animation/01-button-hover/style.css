@@ -17,3 +17,20 @@ button {
   padding: 16px 24px;
   text-align: center;
 }
+
+#transition-container :hover {
+  animation-duration: 2s;
+  animation-name: breathe;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes breathe {
+  0% {
+    scale: 2 2;
+  }
+
+  100% {
+    scale: 1 1;
+  }
+}
